@@ -1,0 +1,72 @@
+/* .skillsDiv>img{
+    height: 100px;
+    width: 200px;
+}
+.skillsDiv{
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+}
+.skillsDiv:hover{
+    background-color: black;
+} */
+.mainSkillDiv{
+    display: flex;
+    
+    justify-content: space-around;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+h1{
+    font-size: 50px;
+}
+.skillsDivSection>div>img{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.skillsDiv{
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    height: auto;
+
+    /* width: 200px; */
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    gap: 40px;
+    /* margin-left: 150px; */
+}
+.skillsDivSection{
+    /* border: 1px solid teal; */
+    text-align: center;
+    align-items: center;
+    
+}
+.skillsDivSection{
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+    height: 160px;
+    width: 140px;
+    padding: 20px;
+}
+.skillsDivSection:hover{
+    background-color: black;
+}
+.skillImgDiv{
+    padding-top: 60px;
+}
+.skillImgDiv>img{
+    border-radius: 50%;
+    box-shadow: rgba(103, 104, 172, 0.56) 0px 22px 70px 15px;
+    height: 550px;
+    width: 550px;
+}

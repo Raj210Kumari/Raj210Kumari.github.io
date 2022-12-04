@@ -1,0 +1,32 @@
+.homeDiv{
+}
+
+.homeDivImg{
+    box-shadow: rgba(16, 20, 223, 0.56) 0px 22px 70px 15px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:910px){
+    .homeDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:500px){
+    .homeDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* overflow: hidden; */
+    }
+
+    .homeDivImg{
+        height: 275px;
+        width: 275px;
+    }
+}
