@@ -1,0 +1,36 @@
+.projectMainDiv{
+    margin-top: 120px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border:  1px solid red; */
+    gap: 30px;
+}
+h1{
+    font-size: 50px;
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+.projectSecondDiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+}
+.projectDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    
+}
+.firstProject{
+    height: 300px;
+    width: 500px;
+    border: 1px solid teal;
+    background-color: rgb(17, 20, 20);
+    /* border-radius: 70px 0px 70px 0px; */
+    /* box-shadow: rgba(75, 46, 240, 0.658) -5px 5px, rgba(146, 46, 240, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(46, 169, 240, 0.1) -20px 20px, rgba(124, 60, 243, 0.05) -25px 25px; */
+}

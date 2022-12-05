@@ -16,7 +16,7 @@ const Navbar = () => {
     <div id="navdiv">
         <header>
             <div id="navLogo">
-                <img src={logo}/>
+                <img src={logo} alt="logo"/>
             </div>
             <div id="navContent">
                 <nav ref={navRef} >
