@@ -10,9 +10,9 @@
 h1{
     font-size: 50px;
 }
-img{
-    height: 500px;
-    width: 400px;
+.projectSecondDiv>div>img{
+    height: 600px;
+    width: 500px;
 }
 .projectSecondDiv{
     display: flex;
@@ -29,8 +29,67 @@ img{
 .firstProject{
     height: 300px;
     width: 500px;
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
+    /* background-color: rgb(17, 20, 20);  */
+    border-radius: 70px;
+    box-shadow: rgba(75, 46, 240, 0.658) -5px 5px, rgba(146, 46, 240, 0.3) -10px 10px, rgba(226, 31, 155, 0.2) -15px 15px, rgba(26, 165, 245, 0.1) -20px 20px, rgba(169, 130, 240, 0.05) -25px 25px;
+}
+.firstProjectDis{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid teal; */
     background-color: rgb(17, 20, 20);
-    /* border-radius: 70px 0px 70px 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 70px ;
     /* box-shadow: rgba(75, 46, 240, 0.658) -5px 5px, rgba(146, 46, 240, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(46, 169, 240, 0.1) -20px 20px, rgba(124, 60, 243, 0.05) -25px 25px; */
+}
+
+.projectImg{
+    height: 300px;
+    width: 500px;
+    border-radius: 70px;
+}
+
+.firstProjectDis>div>img{
+    height: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.firstProjectDis>div>p{
+    font-size: 20px;
+    padding: 0px 16px;
+}
+
+.firstProjectDis>div>button{
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px 40px 20px 40px;
+    background-color:transparent;  
+    border:1px solid blueviolet;
+    border-radius:20px;
+    text-align: center;
+    align-items: center;
+}
+
+.firstProjectDis:hover{
+    background-color: rgb(168, 116, 216);
+    color: black;
+    
+}
+.firstProjectDis>div>button:hover{
+    border:1px solid rgb(255, 255, 255);
+}
+h1{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
