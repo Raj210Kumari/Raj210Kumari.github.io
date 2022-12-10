@@ -18,31 +18,31 @@ export const Skills = () => {
         </div>
         <div className='skillsDiv'>
             <div className='skillsDivSection' >
-              <div><img src={html} /></div>
+              <div><img src={html} alt="HTML"/></div>
               <h3>HTML</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={css} /></div>
+              <div><img src={css} alt="CSS"/></div>
               <h3>CSS</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={JS} /></div>
+              <div><img src={JS} alt="JS"/></div>
               <h3>JavaScript</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={Chakra} style={{borderRadius:"50%"}}/></div>
+              <div><img src={Chakra} style={{borderRadius:"50%"}} alt="Chakra"/></div>
               <h3>Chakra</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={ReactLogo} /></div>
+              <div><img src={ReactLogo} alt="React"/></div>
               <h3>React</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={nodeJS} /></div>
+              <div><img src={nodeJS} alt="NodeJS"/></div>
               <h3>Node JS</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={Git} /></div>
+              <div><img src={Git} alt="Dit"/></div>
               <h3>Git</h3>
             </div>
             <div className='skillsDivSection'></div>
@@ -51,7 +51,7 @@ export const Skills = () => {
         </div>
       </div>
       <div className='skillImgDiv'>
-        <img src={skills} />
+        <img src={skills} alt="SkillLogo"/>
       </div>
     </div>
   )

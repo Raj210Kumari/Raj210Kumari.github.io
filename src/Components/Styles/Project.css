@@ -1,11 +1,14 @@
 .projectMainDiv{
-    margin-top: 120px;
+    /* border-top: 1px solid red; */
+    /* padding-top: 30px; */
+    margin-top: 100px;
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* border:  1px solid red; */
     gap: 30px;
+    padding-bottom: 100px;
 }
 h1{
     font-size: 50px;
@@ -23,20 +26,22 @@ h1{
 .projectDiv{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 50px;
+    gap: 60px;
     
 }
 .firstProject{
-    height: 300px;
-    width: 500px;
+    /* padding: 20px; */
+    height: 340px;
+    width: 520px;
     /* border: 1px solid teal; */
     /* background-color: rgb(17, 20, 20);  */
     border-radius: 70px;
     box-shadow: rgba(75, 46, 240, 0.658) -5px 5px, rgba(146, 46, 240, 0.3) -10px 10px, rgba(226, 31, 155, 0.2) -15px 15px, rgba(26, 165, 245, 0.1) -20px 20px, rgba(169, 130, 240, 0.05) -25px 25px;
 }
 .firstProjectDis{
-    height: 300px;
-    width: 500px;
+    padding: 20px;
+    height: 340px;
+    width: 520px;
     /* border: 1px solid teal; */
     background-color: rgb(17, 20, 20);
     display: flex;
@@ -48,8 +53,8 @@ h1{
 }
 
 .projectImg{
-    height: 300px;
-    width: 500px;
+    height: 340px;
+    width: 520px;
     border-radius: 70px;
 }
 
@@ -88,6 +93,7 @@ h1{
 }
 h1{
     text-decoration: underline;
+    /* margin-bottom: 50px; */
 }
 a{
     text-decoration: none;

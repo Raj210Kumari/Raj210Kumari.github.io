@@ -1,27 +1,98 @@
-import React from 'react'
+// import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import styled from "styled-components"
+import "./Styles/Contact.css"
+import ContactMe from "../Images/Contact-Me.png"
 
 export const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8cto6xg', 'template_z07756o', form.current, 'qZwb3sXRjYiTZeMcS')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <div id="contact" style={{ width: "500px"}}>
-    <h1>About</h1>
-        I would like to begin by drawing your attention to the title of this
-        lecture: "Religious Belief and Public Morality: A Catholic Governor's
-        Perspective." I was not invited to speak on "Church and State"
-        generally. Certainly not "Mondale vs. Reagan." The subject assigned is
-        difficult enough. I will try not to do more than I've been asked. It's
-        not easy to stay contained. Certainly, although everybody talks about a
-        wall of separation between church and state, I've seen religious leaders
-        scale that wall with all the dexterity of olympic athletes. In fact,
-        I've seen so many candidates in churches and synagogues that I think we
-        should change election day from Tuesdays to Saturdays and Sundays. I am
-        honored by this invitation, but the record shows that I am not the first
-        Governor of New York to appear at an event involving Notre Dame. One of
-        my great predecessors, Al Smith, went to the Army - Notre Dame football
-        game each time it was played in New York. His fellow Catholics expected
-        Smith to sit with Notre Dame; protocol required him to sit with Army
-        because it was the home team. Protocol prevailed. But not without Smith
-        noting the dual demands on his affections. "I'll take my seat with
-        Army," he said, "but I commend my soul to Notre Dame!"
-      </div>
+    <div id="contact" className='contactDiv'>
+        <div>
+          <h1>Contact Me</h1>
+        </div>
+        <div className='contactDivSection'> 
+          <div>
+            <img src={ContactMe} alt="ContactMe"/>
+          </div>
+          <div className='formDiv'>
+            <StyledContactForm>
+              <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+                <input type="submit" value="Send" style={{fontSize:"24px"}}/>
+              </form>
+            </StyledContactForm>
+          </div>
+        </div>
+        <div className='footerTag'>
+            <h2>Rajnandani Kuamri</h2>
+        </div>
+    </div>
   )
 }
+
+const StyledContactForm = styled.div`
+  width: 400px;
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 200%;
+    font-size: 24px;
+    input {
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+    label {
+      margin-top: 1rem;
+    }
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      height:50px;
+      background: blueviolet;
+      color: white;
+      border: none;
+    }
+  }
+`;

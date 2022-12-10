@@ -8,11 +8,11 @@ import p4 from "../Images/p4.png"
 
 import html from "../Images/html.png"
 import css from "../Images/CSS.png"
-import Chakra from "../Images/chakra.jpg"
+// import Chakra from "../Images/chakra.jpg"
 import JS from "../Images/js.png"
 import ReactLogo from "../Images/react.png"
 import ReduxLogo from "../Images/redux.png"
-import nodeJS from "../Images/nodeJS.png"
+// import nodeJS from "../Images/nodeJS.png"
 import Git from "../Images/git.png"
 import bootstrap from "../Images/bootstrap.png"
 
@@ -58,6 +58,7 @@ const Projects = () => {
               <img src={html} alt="HTML"/>
               <img src={css} alt="CSS"/>
               <img src={JS} alt="JS"/>
+              <img src={Git} alt="GitHub"/>
             </div>
             <div>
               <p>Sephora is a French multinational retailer of luxury beauty and skincare e-commerce platfom, launched in India in year 2013. </p>
@@ -73,8 +74,42 @@ const Projects = () => {
           <div className='firstProject'>
               <img src={p3} alt="BathBodyWorks" className='projectImg'/> 
           </div>
-          <div className='firstProjectDis'></div>
-          <div className='firstProjectDis'></div>
+          <div className='firstProjectDis'>
+            <div>
+              <h1>Bath&Body Works</h1>
+            </div>
+            <div>
+              <img src={html} alt="HTML"/>
+              <img src={css} alt="CSS"/>
+              <img src={JS} alt="JS"/>
+              <img src={Git} alt="GitHub"/>
+            </div>
+            <div>
+              <p>BathBadyWorks is American retail store chain. It was founded in 1990 in New Albany, Ohio. It mainly sells soaps, perfumes, candles, etc. </p>
+            </div>
+            <div>
+              <button><a href='https://wonderful-pithivier-711422.netlify.app/'>Link</a></button>
+              <button><a href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'>Github</a></button>
+            </div>
+          </div>
+          <div className='firstProjectDis'>
+          <div>
+              <h1>Beauty Bebo</h1>
+            </div>
+            <div>
+              <img src={html} alt="HTML"/>
+              <img src={css} alt="CSS"/>
+              <img src={JS} alt="JS"/>
+              <img src={Git} alt="GitHub"/>
+            </div>
+            <div>
+              <p>BeautyBebo is online retail store for the day to day and special occasion need of the Mackup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. </p>
+            </div>
+            <div>
+              <button><a href='https://dynamic-sfogliatella-27dde0.netlify.app/'>Link</a></button>
+              <button><a href='https://github.com/Raj210Kumari/BeautyBebo-Clone'>Github</a></button>
+            </div>
+          </div>
           <div className='firstProject'>
               <img src={p4} alt="BeautyBebo" className='projectImg'/>
           </div>

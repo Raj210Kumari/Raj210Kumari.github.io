@@ -3,20 +3,13 @@ import Typical from "react-typical";
 import { Heading, Image } from "@chakra-ui/react";
 import "./Styles/Home.css"
 import raj from "../Images/raj-removebg-preview.png"
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 export const Home = () => {
   
   return (
     <div
       id="home"
-      style={{
-        // border: "1px solid red",
-        height: "auto",
-        paddingTop: "150px",
-        display: "flex",
-        justifyContent:"space-around"
-      }}
       className="homeDiv"
     >
       <div style={{  textAlign: "center" , marginTop:"140px"}}>
