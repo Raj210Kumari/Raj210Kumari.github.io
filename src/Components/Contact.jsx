@@ -95,4 +95,26 @@ const StyledContactForm = styled.div`
       border: none;
     }
   }
+  @media (min-width:460px) and (max-width:600px){
+    ${'' /* width:200px */}
+    form{
+      display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 24px;
+    }
+  }
+  @media (min-width:0px) and (max-width:459px){
+    ${'' /* width:200px */}
+    ${'' /* marginRight:0px */}
+    form{
+      display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    font-size: 24px;
+    margin-right:0px
+    }
+  }
 `;

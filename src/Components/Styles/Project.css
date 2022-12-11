@@ -99,3 +99,46 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+@media (min-width:0px) and (max-width:830px){
+    .projectSecondDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectSecondDiv>div>img{
+        display: none;
+    }
+    .firstProject,.projectImg{
+        height: 240px;
+        width: 420px;
+        border-radius: 70px ;
+    }
+    .firstProjectDis{
+        display: none;
+    }
+}
+@media (min-width:0px) and (max-width:459px){
+    .projectSecondDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectSecondDiv>div>img{
+        display: none;
+    }
+    .firstProject,.projectImg{
+        height: 180px;
+        width: 320px;
+        border-radius: 50px ;
+    }
+    .firstProjectDis{
+        display: none;
+    }
+}

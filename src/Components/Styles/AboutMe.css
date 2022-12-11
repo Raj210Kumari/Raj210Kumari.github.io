@@ -29,7 +29,7 @@
     /* border: 1px solid red; */
 }
 
-@media screen and (max-width:910px){
+/* @media screen and (max-width:910px){
     .aboutMeDiv{
         align-items: center;
         display: flex;
@@ -44,7 +44,6 @@
     .aboutMeDiv1>img{
         height: 400px;
         width: 500px;
-        /* padding-left: 30px; */
     }
     
     .aboutMeDiv2>ul>li{
@@ -55,9 +54,9 @@
     .aboutMeDiv2{
         margin-left: 30px;
     }
-}
+} */
 
-@media screen and (max-width:500px){
+@media (min-width:0px) and (max-width:600px){
     .aboutMeDiv{
         align-items: center;
         display: flex;
@@ -72,7 +71,6 @@
     .aboutMeDiv1>img{
         height: 250px;
         width: 350px;
-        /* padding-left: 20px; */
     }
     
     .aboutMeDiv2>ul>li{

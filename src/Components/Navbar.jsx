@@ -1,43 +1,79 @@
-import React from 'react'
-import {useRef} from "react"
-import {FaBars, FaTimes} from "react-icons/fa"
-import './Styles/Navbar.css';
-import {Link} from "react-scroll"
-import logo from "../Images/logo2.png"
+import { Box, Flex, Spacer,  useMediaQuery, IconButton, Button, Text, Divider } from "@chakra-ui/react"
+import Resume from "../Rajnandani_Kumari_Resume.pdf"
+import "./Styles/Navbar.css"
+
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem
+   
+  } from '@chakra-ui/react'
+
+  import {  HamburgerIcon } from '@chakra-ui/icons'
+// import {  yellow, headline, red } from "../theme/color"
+// import { toggleClick } from "../Toggle/ToggleClick"
+
+
+
 
 const Navbar = () => {
-    const navRef=useRef()
+    const [navMid] = useMediaQuery('(min-width: 800px)')
 
-    const showNavbar=()=>{
-        navRef.current.classList.toggle("responsive_nav")
-    }
+    function toggleClick(id){
+        console.log("done")
+        let value = document.getElementById(id)
+        let dec = 90
+        if(id==="about"){
+            dec = 160
+        }
+        window.scrollTo({top:value.offsetTop-dec,behavior:"smooth"})
+     }
+   
 
-  return (
-    <div id="navdiv">
-        <header>
-            <div id="navLogo">
-                <img src={logo} alt="logo"/>
-            </div>
-            <div id="navContent">
-                <nav ref={navRef} >
-                    <a className="activeNav" href='/'><Link to="home" smooth={true} duration={100} offset={-100} spy={true}>Home</Link></a>
-                    <a className="activeNav" href='/'><Link to="about" smooth={true} duration={100} offset={-100} spy={true}>About Me</Link></a>
-                    <a className="activeNav" href='/'><Link to="skill" smooth={true} duration={100} offset={-100} spy={true}>Skills</Link></a>
-                    <a className="activeNav" href='/'><Link to="project" smooth={true} duration={100} offset={-100} spy={true}>Project</Link></a>
-                    <a className="activeNav" href='/'><Link to="contact" smooth={true} duration={100} offset={-100} spy={true}>Contact</Link></a>
-                    <button className='="nav-btn nav-close-btn' onClick={showNavbar}>
-                        <FaTimes/>
-                    </button>
-                </nav> 
-            </div>
-            <div id="navCloseBtn">
-                <button className="nav-btn" onClick={showNavbar}>
-                    <FaBars/>
-                </button>
-            </div>
-        </header>
-    </div>
-  )
+    return (
+        <>
+        <Flex className="navbarMainDiv">
+            <Box>
+                <Text> <b style={{fontSize:"24px", marginLeft:"40px"}}> Rajnandani  </b></Text>
+            </Box>
+            <Spacer/>
+
+            <Box >
+           { navMid && <Box className="navButtons">
+                <Button onClick={()=>toggleClick("home")}>Home</Button>
+                <Button onClick={()=>toggleClick("about")} >About Me</Button>
+                <Button onClick={()=>toggleClick("skill")} >Skills</Button>
+                <Button onClick={()=>toggleClick("project")} >Projects</Button>
+                <Button onClick={()=>toggleClick("contact")}>Contact</Button>
+                <Button><a href={Resume} download="Rajnandani_Kuamri_Resume">Resume</a></Button>
+            </Box>
+            }
+            
+            { 
+            !navMid && <Menu>
+            <MenuButton
+              as={IconButton}
+              aria-label='Options'
+              icon={<HamburgerIcon />}
+                variant='outline'
+                style={{border:"none", paddingRight:"30px",height:"40px"}}
+              />
+            <MenuList className="menuBar">
+              <MenuItem onClick={()=>toggleClick("home")} className="menuBarSection"> Home</MenuItem>
+              <MenuItem onClick={()=>toggleClick("about")} className="menuBarSection">About Me</MenuItem>
+              <MenuItem onClick={()=>toggleClick("skill")} className="menuBarSection">skills</MenuItem>
+              <MenuItem onClick={()=>toggleClick("project")} className="menuBarSection">Projects</MenuItem>
+              <MenuItem onClick={()=>toggleClick("contact")} className="menuBarSection"> Contact</MenuItem>
+            </MenuList>
+          </Menu>
+            }   
+            </Box>
+        </Flex>
+        <Divider orientation='horizontal' />
+        </>
+    )
+
 }
 
-export default Navbar
+export default Navbar;
