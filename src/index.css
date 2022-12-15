@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    align-items: center;
 }
 :root {
   --blue: #2639e6;

@@ -46,10 +46,10 @@ const Navbar = () => {
                 <Button onClick={()=>toggleClick("skill")} >Skills</Button>
                 <Button onClick={()=>toggleClick("project")} >Projects</Button>
                 <Button onClick={()=>toggleClick("contact")}>Contact</Button>
-                <Button><a href={Resume} download="Rajnandani_Kuamri_Resume">Resume</a></Button>
+                <Button><a href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1JNg5XlMgmLy1ZNAqFpK4D39VciH79WPB/view?usp=share_link')}>Resume</a></Button>
             </Box>
             }
-            
+            {/*   */}
             { 
             !navMid && <Menu>
             <MenuButton
@@ -57,7 +57,7 @@ const Navbar = () => {
               aria-label='Options'
               icon={<HamburgerIcon />}
                 variant='outline'
-                style={{border:"none", paddingRight:"30px",height:"40px"}}
+                style={{border:"2px solid red",height:"40px"}}
               />
             <MenuList className="menuBar">
               <MenuItem onClick={()=>toggleClick("home")} className="menuBarSection"> Home</MenuItem>

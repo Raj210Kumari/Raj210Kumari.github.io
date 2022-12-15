@@ -34,7 +34,7 @@ export const Home = () => {
           style={{height:"65px", width:"200px",fontSize:"40px",fontWeight:"700",marginTop:"20px",backgroundColor:"transparent",  border:"1px solid blueviolet",borderRadius:"20px"}} 
           >
           <a 
-            href={Resume} download="Rajnandani_Kuamri_Resume"
+            href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1JNg5XlMgmLy1ZNAqFpK4D39VciH79WPB/view?usp=share_link')}
             style={{textDecoration:"none",color:"#fff"}}
           >
           Resume</a>

@@ -12,6 +12,7 @@
     height: 60px;
     background-color: var(--mainColor);
     align-items: center;
+    justify-content: space-between;
 }
 .navButtons{
     display: flex;

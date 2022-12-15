@@ -1,0 +1,47 @@
+.gitStatsDetails{
+    display: flex;
+    /* border: 1px solid deeppink; */
+    padding: 40px;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+}
+
+@media (min-width:460px) and (max-width:830px){
+    .gitStatsDetails{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid deeppink; */
+        padding: 40px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .gitStatsDetails>div>img{
+        width: 450px;
+    }
+    .gitCalanderDetails{
+        /* width: 100%; */
+        align-items:center ;
+    /* border: 1px solid deeppink; */
+
+    }
+    /* .gitCalanderDetails>Center{
+        width: 460px;
+    } */
+}
+@media (min-width:0px) and (max-width:459px){
+    .gitStatsDetails{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: center;
+        gap: 30px;
+    }
+    .gitStatsDetails>div>img{
+        width: 250px;
+    }
+    .gitCalanderDetails{
+        align-items:center ;
+
+    }
+}
