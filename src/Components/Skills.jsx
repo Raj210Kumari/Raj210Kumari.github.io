@@ -8,6 +8,9 @@ import ReactLogo from "../Images/react.png"
 import nodeJS from "../Images/nodeJS.png"
 import Git from "../Images/git.png"
 import skills from "../Images/skills.png"
+import MI from "../Images/MI.png"
+import Netlify from "../Images/netlify.png"
+import ts from "../Images/ts.jpg"
 
 export const Skills = () => {
   return (
@@ -42,12 +45,21 @@ export const Skills = () => {
               <h3>Node JS</h3>
             </div>
             <div className='skillsDivSection'>
-              <div><img src={Git} alt="Dit"/></div>
+              <div><img src={Git} alt="Git"/></div>
               <h3>Git</h3>
             </div>
-            <div className='skillsDivSection'></div>
-            <div className='skillsDivSection'></div>
-            <div className='skillsDivSection'></div>
+            <div className='skillsDivSection'>
+              <div><img src={MI} alt="MI"/></div>
+              <h3>Meterial UI</h3>
+            </div>
+            <div className='skillsDivSection'>
+              <div><img src={Netlify} alt="netlify"/></div>
+              <h3>Netlify</h3>
+            </div>
+            <div className='skillsDivSection'>
+              <div><img src={ts} alt="ts" style={{borderRadius:"50%"}}/></div>
+              <h3>TypeScript</h3>
+            </div>
         </div>
       </div>
       <div className='skillImgDiv'>

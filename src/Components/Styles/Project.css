@@ -14,8 +14,8 @@ h1{
     font-size: 50px;
 }
 .projectSecondDiv>div>img{
-    height: 600px;
-    width: 500px;
+    height: 500px;
+    width: 400px;
 }
 .projectSecondDiv{
     display: flex;
@@ -31,8 +31,8 @@ h1{
 }
 .firstProject{
     /* padding: 20px; */
-    height: 340px;
-    width: 520px;
+    height: 270px;
+    width: 420px;
     /* border: 1px solid teal; */
     /* background-color: rgb(17, 20, 20);  */
     border-radius: 70px;
@@ -40,8 +40,8 @@ h1{
 }
 .firstProjectDis{
     padding: 20px;
-    height: 340px;
-    width: 520px;
+    height: 270px;
+    width: 420px;
     /* border: 1px solid teal; */
     background-color: rgb(17, 20, 20);
     display: flex;
@@ -53,27 +53,27 @@ h1{
 }
 
 .projectImg{
-    height: 340px;
-    width: 520px;
+    height: 270px;
+    width: 420px;
     border-radius: 70px;
 }
 
 .firstProjectDis>div>img{
-    height: 40px;
-    height: 40px;
+    height: 35px;
+    height: 35px;
     margin-left: 20px;
 }
 
 .firstProjectDis>div>p{
-    font-size: 20px;
+    font-size: 16px;
     padding: 0px 16px;
 }
 
 .firstProjectDis>div>button{
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 80px;
     color: #fff;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     margin: 0px 40px 20px 40px;
     background-color:transparent;  
@@ -100,7 +100,7 @@ a{
     color: #fff;
 }
 
-@media (min-width:0px) and (max-width:830px){
+@media (min-width:459px) and (max-width:830px){
     .projectSecondDiv{
         display: flex;
         flex-direction: column;

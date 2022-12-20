@@ -57,7 +57,7 @@ const Navbar = () => {
               aria-label='Options'
               icon={<HamburgerIcon />}
                 variant='outline'
-                style={{border:"2px solid red",height:"40px"}}
+                style={{width:"30px",height:"40px",background:"021872"}}
               />
             <MenuList className="menuBar">
               <MenuItem onClick={()=>toggleClick("home")} className="menuBarSection"> Home</MenuItem>

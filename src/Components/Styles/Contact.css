@@ -2,25 +2,90 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* border: 1px solid red; */
 }
 .contactDivSection{
     padding:30px 0px 30px 0px;
     display: flex;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .contactDivSection>div>img{
     padding: 0px 0px 0px 100px; 
-    width: 1000px;
+    width: 900px;
 }
 .formDiv{
     margin-top: 40px;
 }
-.footerTag{
-    border: 1px solid red;
+.endSection{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:70px;
+    background-color:black;
+    color:white;
+    margin-top:20px;
+    gap:400px;
+    /* border:1px solid red; */
+    font-size: 24px;
 }
+.endSection>p{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+.middleSection{
+    display:flex;
+    justify-content:space-around;
+    gap:40px
+
+}
+.middleSection>div{
+    padding:10px;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.middleSection>div>h1{
+   font-size:x-large;
+   margin-top:0px;
+   
+}
+.middleSection>div p{
+    margin-top:0px;
+}
+.middleSection>div a{
+    text-decoration:none;
+    color:#FFE433;
+ }
+
+ @media (min-width:831px) and (max-width:1000px){
+
+     .contactDivSection{
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+     }
+     .contactDivSection>div>img{
+        padding: 0px 0px 0px 0px; 
+        width: 500px;
+        overflow: hidden;
+
+    }
+    .formDiv{
+        width: 80%;
+    }
+    .middleSection{
+        flex-direction:column;
+    }
+    .endSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 @media (min-width:460px) and (max-width:830px){
      .contactDivSection{
@@ -36,6 +101,14 @@
     .formDiv{
         width: 80%;
     }
+    .middleSection{
+        flex-direction:column;
+    }
+    .endSection{
+        display: flex;
+        flex-direction: column;
+        gap:0px
+    }
 }
 @media (min-width:0px) and (max-width:459px){
     .contactDivSection{
@@ -49,5 +122,21 @@
    }
    .formDiv{
     width: 80%;
+    }
+    .middleSection{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        gap:40px
+    
+    }
+    /* .endSection>p{
+        font-size:10px;
+    } */
+    .endSection{
+        display: flex;
+        flex-direction: column;
+        gap:0px
+    }
 }
-}
+

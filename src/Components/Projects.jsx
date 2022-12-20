@@ -32,7 +32,7 @@ const Projects = () => {
           </div>
           <div className='firstProjectDis'>
             <div>
-              <h1>Geekbuying Clone</h1>
+              <h2>Geekbuying Clone</h2>
             </div>
             <div>
               <img src={ReactLogo} alt="React"/>
@@ -52,7 +52,7 @@ const Projects = () => {
           </div>
           <div className='firstProjectDis'>
           <div>
-              <h1>Sephora Clone</h1>
+              <h2>Sephora Clone</h2>
             </div>
             <div>
               <img src={html} alt="HTML"/>
@@ -76,7 +76,7 @@ const Projects = () => {
           </div>
           <div className='firstProjectDis'>
             <div>
-              <h1>Bath&Body Works</h1>
+              <h2>Bath&Body Works</h2>
             </div>
             <div>
               <img src={html} alt="HTML"/>
@@ -94,7 +94,7 @@ const Projects = () => {
           </div>
           <div className='firstProjectDis'>
           <div>
-              <h1>Beauty Bebo</h1>
+              <h2>Beauty Bebo</h2>
             </div>
             <div>
               <img src={html} alt="HTML"/>
