@@ -60,7 +60,7 @@ export const Contact = () => {
       <div className="middleSection">
         <div data-aos="fade-right" style={{ color: "white" }}>
           <PhoneIcon fontSize="large" />
-          <h1>Phone</h1>
+          <h1>Phone</h1><br/>
           {/* <p>Here is My Phone Number</p> */}
           <a href="tel:+91-7077511496" rel="noreferrer" target="_blank">
             <p>+91-7077511496</p>
@@ -71,7 +71,7 @@ export const Contact = () => {
           <h1>LinkedIn</h1><br/>
           {/* <p>Here is My LinkedIn</p> */}
           <a
-            href="https://www.linkedin.com/in/nitesh-sindhu-150473203/"
+            href="https://www.linkedin.com/in/k-rajnandani210/"
             rel="noreferrer"
             target="_blank"
           >
@@ -83,7 +83,7 @@ export const Contact = () => {
           <h1>Github</h1><br/>
           {/* <p>Here is My Github</p> */}
           <a
-            href="https://github.com/NiteshSindhu"
+            href="https://github.com/Raj210Kumari"
             rel="noreferrer"
             target="_blank"
           >
@@ -107,9 +107,7 @@ export const Contact = () => {
           <LocationOnIcon fontSize="large" />
           <h1>Location</h1>
           <br/>
-          <a>
-            <p>Mihijam, Jharkhand</p>
-          </a>
+          <p>Mihijam, Jharkhand</p>
         </div>
       </div>
       <div className="endSection">

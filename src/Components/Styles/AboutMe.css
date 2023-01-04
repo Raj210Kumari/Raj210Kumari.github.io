@@ -25,9 +25,9 @@
     font-size: 28px;
     margin: 10px;
 }
-.aboutMeDiv2, .aboutMeDiv1{
-    /* border: 1px solid red; */
-}
+/* .aboutMeDiv2, .aboutMeDiv1{
+    /* border: 1px solid red; 
+} */
 
 /* @media screen and (max-width:910px){
     .aboutMeDiv{
@@ -55,8 +55,34 @@
         margin-left: 30px;
     }
 } */
+@media (min-width:460px) and (max-width:830px){
+    .aboutMeDiv{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutMeDiv h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .aboutMeDiv1>img{
+        height: 250px;
+        width: 350px;
+    }
+    
+    .aboutMeDiv2>ul>li{
+        font-size: 16px;
+        margin: 10px;
+    
+    }
+    .aboutMeDiv2{
+        margin-left: 15px;
+    }
+}
 
-@media (min-width:0px) and (max-width:600px){
+@media (min-width:0px) and (max-width:459px){
     .aboutMeDiv{
         align-items: center;
         display: flex;

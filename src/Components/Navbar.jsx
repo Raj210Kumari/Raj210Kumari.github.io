@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Button onClick={()=>toggleClick("skill")} >Skills</Button>
                 <Button onClick={()=>toggleClick("project")} >Projects</Button>
                 <Button onClick={()=>toggleClick("contact")}>Contact</Button>
-                <Button><a href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1JNg5XlMgmLy1ZNAqFpK4D39VciH79WPB/view?usp=share_link')}>Resume</a></Button>
+                <Button><a href={Resume} download="Rajnandani_Kumari_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1akj0a_toPxHWiNungd_RA9bWxLuziJPU/view?usp=sharing')}>Resume</a></Button>
             </Box>
             }
             {/*   */}

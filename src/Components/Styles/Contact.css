@@ -53,10 +53,14 @@
    margin-top:0px;
    
 }
-.middleSection>div p{
+/* .middleSection>div p{
     margin-top:0px;
-}
+} */
 .middleSection>div a{
+    text-decoration:none;
+    color:#FFE433;
+ }
+ .middleSection>div p{
     text-decoration:none;
     color:#FFE433;
  }
