@@ -10,10 +10,16 @@
     display: flex;
     width: 100%;
     /* border: 1px solid red; */
+    align-items: center;
+    text-align: center;
 }
-.contactDivSection>div>img{
-    padding: 0px 0px 0px 100px; 
-    width: 900px;
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+    /* border: 1px solid red; */
+    
 }
 .formDiv{
     margin-top: 40px;

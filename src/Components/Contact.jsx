@@ -10,6 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { GitHub, LinkedIn } from '@mui/icons-material';
 import heart from "../Images/heart.png"
+import {Box} from "@chakra-ui/react"
 
 export const Contact = () => {
   const form = useRef();
@@ -39,24 +40,11 @@ export const Contact = () => {
       <div>
         <h1>Contact Me</h1>
       </div>
-      <div className="contactDivSection">
-        <div>
-          <img src={ContactMe} alt="ContactMe" />
-        </div>
-        <div className="formDiv">
-          <StyledContactForm>
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" />
-              <label>Email</label>
-              <input type="email" name="user_email" />
-              <label>Message</label>
-              <textarea name="message" />
-              <input type="submit" value="Send" style={{ fontSize: "24px" }} />
-            </form>
-          </StyledContactForm>
-        </div>
-      </div>
+      <Box className="contactDivSection" alignContent="center">
+        
+          <img src={ContactMe} alt="ContactMe" className="center"/>
+        
+      </Box>
       <div className="middleSection">
         <div data-aos="fade-right" style={{ color: "white" }}>
           <PhoneIcon fontSize="large" />
@@ -118,104 +106,3 @@ export const Contact = () => {
   );
 };
 
-const StyledContactForm = styled.div`
-  width: 200px;
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 200%;
-    font-size: 24px;
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    label {
-      margin-top: 1rem;
-    }
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      height: 50px;
-      background: blueviolet;
-      color: white;
-      border: none;
-    }
-  }
-  ${'' /* @media (min-width: 460px) and (max-width: 600px) {
-    ${"" /* width:200px 
-    form {
-      display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      width: 100%;
-      font-size: 24px;
-    }
-  } */}
-  @media (min-width: 0px) and (max-width: 600px) {
-    width: 200px;
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 200%;
-    font-size: 24px;
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-    label {
-      margin-top: 1rem;
-    }
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      height: 50px;
-      background: blueviolet;
-      color: white;
-      border: none;
-    }
-  }
-`;

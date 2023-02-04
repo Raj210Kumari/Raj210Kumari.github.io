@@ -52,6 +52,7 @@ h1{
     /* box-shadow: rgba(75, 46, 240, 0.658) -5px 5px, rgba(146, 46, 240, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(46, 169, 240, 0.1) -20px 20px, rgba(124, 60, 243, 0.05) -25px 25px; */
 }
 
+
 .projectImg{
     height: 270px;
     width: 420px;
@@ -79,6 +80,7 @@ h1{
     background-color:transparent;  
     border:1px solid blueviolet;
     border-radius:20px;
+    border-radius:20px;
     text-align: center;
     align-items: center;
 }
@@ -98,6 +100,11 @@ h1{
 a{
     text-decoration: none;
     color: #fff;
+}
+@media (min-width:831px) and (max-width:1000px){
+    .projectSecondDiv>div>img{
+        display: none;
+    }
 }
 
 @media (min-width:459px) and (max-width:830px){

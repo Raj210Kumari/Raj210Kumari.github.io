@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div className='projectDiv'>
           <div className='firstProject'>
-              <img src={p1} alt="Geekbuying" className='projectImg'/> 
+              <a href="https://github.com/Raj210Kumari/Geekbuying-Clone"><img src={p1} alt="Geekbuying" className='projectImg'/> </a>
           </div>
           <div className='firstProjectDis'>
             <div>
@@ -69,10 +69,10 @@ const Projects = () => {
             </div>
           </div>
           <div className='firstProject'>
-              <img src={p2} alt="Sephora" className='projectImg'/>
+              <a href="https://github.com/Raj210Kumari/Sephora-Clone"><img src={p2} alt="Sephora" className='projectImg'/></a>
           </div>
           <div className='firstProject'>
-              <img src={p3} alt="BathBodyWorks" className='projectImg'/> 
+          <a href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'><img src={p3} alt="BathBodyWorks" className='projectImg'/></a>
           </div>
           <div className='firstProjectDis'>
             <div>
@@ -111,7 +111,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='firstProject'>
-              <img src={p4} alt="BeautyBebo" className='projectImg'/>
+          <a href='https://github.com/Raj210Kumari/BeautyBebo-Clone'><img src={p4} alt="BeautyBebo" className='projectImg'/></a>
           </div>
         </div>
       </div>

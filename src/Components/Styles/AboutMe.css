@@ -55,6 +55,33 @@
         margin-left: 30px;
     }
 } */
+@media (min-width:831px) and (max-width:1000px){
+    .aboutMeDiv{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutMeDiv h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .aboutMeDiv1>img{
+        height: 350px;
+        width: 450px;
+    }
+    
+    .aboutMeDiv2>ul>li{
+        font-size: 16px;
+        margin: 10px;
+    
+    }
+    .aboutMeDiv2{
+        margin-left: 15px;
+    }
+}
+
 @media (min-width:460px) and (max-width:830px){
     .aboutMeDiv{
         align-items: center;

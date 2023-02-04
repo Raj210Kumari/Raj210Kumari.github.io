@@ -6,7 +6,28 @@
     gap: 60px;
     width: 100%;
 }
+@media (min-width:831px) and (max-width:1000px){
+    .gitStatsDetails{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid deeppink; */
+        padding: 40px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .gitStatsDetails>div>img{
+        width: 450px;
+    }
+    .gitCalanderDetails{
+        /* width: 100%; */
+        align-items:center ;
+    /* border: 1px solid deeppink; */
 
+    }
+    /* .gitCalanderDetails>Center{
+        width: 460px;
+    } */
+}
 @media (min-width:460px) and (max-width:830px){
     .gitStatsDetails{
         display: flex;
