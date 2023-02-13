@@ -17,6 +17,17 @@
     
 }
 
+.resumeBtn{
+    height: 65px;
+    width: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: transparent;
+    border:1px solid blueviolet ;
+    border-radius: 20px;
+}
+
 @media (min-width:459px) and (max-width:830px){
     .homeDiv{
         display: flex;
@@ -53,5 +64,11 @@
         width: 300px;
         border-radius: 50%;
         
+    }
+    .resumeBtn{
+        height: 55px;
+        width: 180px;
+        font-size: 30px;
+        font-weight: 700;
     }
 }

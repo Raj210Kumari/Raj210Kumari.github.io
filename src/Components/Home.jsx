@@ -30,9 +30,7 @@ export const Home = () => {
             ]}
           />
         </h1>
-        <button 
-          style={{height:"65px", width:"200px",fontSize:"40px",fontWeight:"700",marginTop:"20px",backgroundColor:"transparent",  border:"1px solid blueviolet",borderRadius:"20px"}} 
-          >
+        <button className="resumeBtn">
           <a 
             href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1akj0a_toPxHWiNungd_RA9bWxLuziJPU/view?usp=sharing')}
             style={{textDecoration:"none",color:"#fff"}}
