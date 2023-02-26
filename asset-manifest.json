@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0188f075.css",
-    "main.js": "/static/js/main.e3dc3ed4.js",
+    "main.css": "/static/css/main.564dd4bf.css",
+    "main.js": "/static/js/main.cda0732b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/p3.png": "/static/media/p3.715ea67bd9ba2ebab279.png",
     "static/media/p2.png": "/static/media/p2.a307c1723b141b6b6bb0.png",
     "static/media/p4.png": "/static/media/p4.19e81a3067590cb23feb.png",
     "static/media/p1.png": "/static/media/p1.bad612d93e0bcd6c4c79.png",
     "static/media/redux.png": "/static/media/redux.010fcccb3cd77a85a1f7.png",
-    "static/media/raj.png": "/static/media/raj.13fc02c3288f6a32ce15.png",
+    "static/media/Rajnandani_Kumari_Resume.pdf": "/static/media/Rajnandani_Kumari_Resume.10046a8e246098d64731.pdf",
     "static/media/project.png": "/static/media/project.34d82b24648b47350501.png",
-    "static/media/Rajnandani_Kumari_Resume.pdf": "/static/media/Rajnandani_Kumari_Resume.fc1bebe8930649511784.pdf",
     "static/media/skills.png": "/static/media/skills.89a3cbd1119aa30bc2f6.png",
+    "static/media/raj..png": "/static/media/raj..049b606133deec68be78.png",
     "static/media/Contact-Me.png": "/static/media/Contact-Me.ffbb9c2333e7630760c2.png",
     "static/media/about.png": "/static/media/about.035ca97304ef68629a3f.png",
     "static/media/html.png": "/static/media/html.9c696df4dd4a86612a79.png",
@@ -27,12 +27,12 @@
     "static/media/express.png": "/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/ts.jpg": "/static/media/ts.24382bf6c8166ea8e89f.jpg",
     "index.html": "/index.html",
-    "main.0188f075.css.map": "/static/css/main.0188f075.css.map",
-    "main.e3dc3ed4.js.map": "/static/js/main.e3dc3ed4.js.map",
+    "main.564dd4bf.css.map": "/static/css/main.564dd4bf.css.map",
+    "main.cda0732b.js.map": "/static/js/main.cda0732b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0188f075.css",
-    "static/js/main.e3dc3ed4.js"
+    "static/css/main.564dd4bf.css",
+    "static/js/main.cda0732b.js"
   ]
 }
