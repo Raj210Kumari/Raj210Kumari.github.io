@@ -65,6 +65,7 @@ const Navbar = () => {
               <MenuItem onClick={()=>toggleClick("skill")} className="menuBarSection">skills</MenuItem>
               <MenuItem onClick={()=>toggleClick("project")} className="menuBarSection">Projects</MenuItem>
               <MenuItem onClick={()=>toggleClick("contact")} className="menuBarSection"> Contact</MenuItem>
+              <MenuItem onClick={()=>window.open('https://drive.google.com/file/d/1akj0a_toPxHWiNungd_RA9bWxLuziJPU/view?usp=sharing')} className="menuBarSection"> <a href={Resume} download="Rajnandani_Kumari_Resume">Resume</a></MenuItem>
             </MenuList>
           </Menu>
             }   

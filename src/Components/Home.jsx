@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import { Heading, Image } from "@chakra-ui/react";
 import "./Styles/Home.css"
-import raj from "../Images/raj.png"
+import raj from "../Images/raj..png"
 import Resume from "../Rajnandani_Kumari_Resume.pdf"
 // import { Link } from "react-scroll";
 
@@ -32,7 +32,7 @@ export const Home = () => {
         </h1>
         <button className="resumeBtn">
           <a 
-            href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/1akj0a_toPxHWiNungd_RA9bWxLuziJPU/view?usp=sharing')}
+            href={Resume} download="Rajnandani_Kuamri_Resume" onClick={()=>window.open('https://drive.google.com/file/d/18ogbzR1xeFjQYVKSx3g851M0Xefp_a6N/view?usp=share_link')}
             style={{textDecoration:"none",color:"#fff"}}
           >
           Resume</a>

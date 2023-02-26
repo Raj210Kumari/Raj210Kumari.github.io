@@ -12,9 +12,10 @@
 } */
 .mainSkillDiv{
     display: flex;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 150px;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
     align-items: center;
 }
 #skill{
@@ -23,6 +24,12 @@
     align-items: center;
     gap: 30px;
     padding-top: 100px;
+    width: 100%;
+}
+.teckdetails{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 h1{
     font-size: 50px;
@@ -39,9 +46,9 @@ h1{
 
 .skillsDiv{
     display: grid;
-    grid-template-columns: 120px 120px 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
     height: auto;
-
+    margin-top: 20px;
     /* width: 200px; */
     /* border: 1px solid red; */
     /* width: 100%; */
@@ -70,20 +77,32 @@ h1{
 .skillImgDiv>img{
     border-radius: 50%;
     box-shadow: rgba(103, 104, 172, 0.56) 0px 22px 70px 15px;
-    height: 550px;
-    width: 550px;
+    height: 350px;
+    width: 350px;
 }
 @media (min-width:831px) and (max-width:1300px){
+    .teckdetails{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+    }
     .mainSkillDiv{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .skillImgDiv>img{
+        border-radius: 50%;
+        box-shadow: rgba(103, 104, 172, 0.56) 0px 22px 70px 15px;
+        height: 450px;
+        width: 450px;
+    }
 }
 @media (min-width:460px) and (max-width:830px){
     .mainSkillDiv{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .skillsDiv{
@@ -102,6 +121,12 @@ h1{
         box-shadow: rgba(103, 104, 172, 0.56) 0px 22px 70px 15px;
         height: 400px;
         width: 400px;
+    }
+    .teckdetails{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
 @media (min-width:0px) and (max-width:459px){
@@ -126,5 +151,12 @@ h1{
         box-shadow: rgba(103, 104, 172, 0.56) 0px 22px 70px 15px;
         height: 300px;
         width: 300px;
+        margin-bottom: 30px;
+    }
+    .teckdetails{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
