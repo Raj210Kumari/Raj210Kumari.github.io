@@ -124,7 +124,7 @@ a{
         width: 420px;
         border-radius: 70px ;
     }
-    .firstProjectDis{
+    .firstProject{
         display: none;
     }
 }
@@ -145,7 +145,7 @@ a{
         width: 320px;
         border-radius: 50px ;
     }
-    .firstProjectDis{
+    .firstProject{
         display: none;
     }
 }

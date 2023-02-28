@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div className='projectDiv'>
           <div className='firstProject'>
-              <a href="https://github.com/Raj210Kumari/Geekbuying-Clone"><img src={p1} alt="Geekbuying" className='projectImg'/> </a>
+              <a target="blank" href="https://github.com/Raj210Kumari/Geekbuying-Clone"><img src={p1} alt="Geekbuying" className='projectImg'/> </a>
           </div>
           <div className='firstProjectDis'>
             <div>
@@ -43,11 +43,13 @@ const Projects = () => {
               <img src={bootstrap} alt="Bootstrap"/>
             </div>
             <div>
-              <p>Geekbuying leading online shop selling a wide range of consumer electronic gadgets. It was founded in 2012 with the mission of creating a platform that truly puts the customer first.</p>
+              <p>React || Redux || HTML || CSS || JS || Bootstrap</p>
+              <br/>
+              <p>Geekbuying leading online shop selling a wide range of consumer electronic gadgets.</p>
             </div>
             <div>
-              <button><a href='https://effervescent-dragon-9ae52a.netlify.app/'>Link</a></button>
-              <button><a href='https://github.com/Raj210Kumari/Geekbuying-Clone'>Github</a></button>
+              <button><a target="blank" href='https://effervescent-dragon-9ae52a.netlify.app/'>Link</a></button>
+              <button><a target="blank" href='https://github.com/Raj210Kumari/Geekbuying-Clone'>Github</a></button>
             </div>
           </div>
           <div className='firstProjectDis'>
@@ -61,18 +63,20 @@ const Projects = () => {
               <img src={Git} alt="GitHub"/>
             </div>
             <div>
-              <p>Sephora is a French multinational retailer of luxury beauty and skincare e-commerce platfom, launched in India in year 2013. </p>
+            <p>HTML || CSS || JS || Git</p>
+              <br/>
+              <p>Sephora is a French multinational retailer of luxury beauty and skincare e-commerce platfom.</p>
             </div>
             <div>
-              <button><a href='https://graceful-longma-ee5897.netlify.app/index.html'>Link</a></button>
-              <button><a href='https://github.com/Raj210Kumari/Sephora-Clone'>Github</a></button>
+              <button><a target="blank" href='https://graceful-longma-ee5897.netlify.app/index.html'>Link</a></button>
+              <button><a target="blank" href='https://github.com/Raj210Kumari/Sephora-Clone'>Github</a></button>
             </div>
           </div>
           <div className='firstProject'>
-              <a href="https://github.com/Raj210Kumari/Sephora-Clone"><img src={p2} alt="Sephora" className='projectImg'/></a>
+              <a target="blank" href="https://github.com/Raj210Kumari/Sephora-Clone"><img src={p2} alt="Sephora" className='projectImg'/></a>
           </div>
           <div className='firstProject'>
-          <a href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'><img src={p3} alt="BathBodyWorks" className='projectImg'/></a>
+          <a target="blank" href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'><img src={p3} alt="BathBodyWorks" className='projectImg'/></a>
           </div>
           <div className='firstProjectDis'>
             <div>
@@ -85,11 +89,13 @@ const Projects = () => {
               <img src={Git} alt="GitHub"/>
             </div>
             <div>
-              <p>BathBadyWorks is American retail store chain. It was founded in 1990 in New Albany, Ohio. It mainly sells soaps, perfumes, candles, etc. </p>
+            <p>HTML || CSS || JS || Git</p>
+              <br/>
+              <p>BathBadyWorks is American retail store chain. It mainly sells soaps, perfumes, candles, etc. </p>
             </div>
             <div>
-              <button><a href='https://wonderful-pithivier-711422.netlify.app/'>Link</a></button>
-              <button><a href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'>Github</a></button>
+              <button><a target="blank" href='https://wonderful-pithivier-711422.netlify.app/'>Link</a></button>
+              <button><a target="blank" href='https://github.com/Raj210Kumari/BathBodyWorks-Clone'>Github</a></button>
             </div>
           </div>
           <div className='firstProjectDis'>
@@ -103,15 +109,17 @@ const Projects = () => {
               <img src={Git} alt="GitHub"/>
             </div>
             <div>
-              <p>BeautyBebo is online retail store for the day to day and special occasion need of the Mackup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. </p>
+            <p>HTML || CSS || JS || Git</p>
+              <br/>
+              <p>BeautyBebo is online retail store for Skin care, Hair care, Personal care, Baby care, etc. </p>
             </div>
             <div>
-              <button><a href='https://dynamic-sfogliatella-27dde0.netlify.app/'>Link</a></button>
-              <button><a href='https://github.com/Raj210Kumari/BeautyBebo-Clone'>Github</a></button>
+              <button><a  target="blank" href='https://dynamic-sfogliatella-27dde0.netlify.app/'>Link</a></button>
+              <button><a target="blank" href='https://github.com/Raj210Kumari/BeautyBebo-Clone'>Github</a></button>
             </div>
           </div>
           <div className='firstProject'>
-          <a href='https://github.com/Raj210Kumari/BeautyBebo-Clone'><img src={p4} alt="BeautyBebo" className='projectImg'/></a>
+          <a target="blank" href='https://github.com/Raj210Kumari/BeautyBebo-Clone'><img src={p4} alt="BeautyBebo" className='projectImg'/></a>
           </div>
         </div>
       </div>

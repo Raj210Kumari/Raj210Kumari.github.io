@@ -21,6 +21,7 @@
     .gitCalanderDetails{
         /* width: 100%; */
         align-items:center ;
+        padding: 10px;
     /* border: 1px solid deeppink; */
 
     }
@@ -43,6 +44,7 @@
     .gitCalanderDetails{
         /* width: 100%; */
         align-items:center ;
+        padding: 10px;
     /* border: 1px solid deeppink; */
 
     }
@@ -63,6 +65,6 @@
     }
     .gitCalanderDetails{
         align-items:center ;
-
+        padding: 10px;
     }
 }

@@ -54,7 +54,7 @@
     text-align: center;
     /* border: 1px solid red; */
 }
-.middleSection>div>h1{
+.middleSection>div>a>h1{
    font-size:x-large;
    margin-top:0px;
    
@@ -62,7 +62,7 @@
 /* .middleSection>div p{
     margin-top:0px;
 } */
-.middleSection>div a{
+.middleSection>div p{
     text-decoration:none;
     color:#FFE433;
  }

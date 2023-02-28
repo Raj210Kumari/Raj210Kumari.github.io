@@ -25,7 +25,7 @@ export function GithubStats() {
       </div>
 
       <div className="gitCalanderDetails">
-        <Center >
+        <Center>
           <GitHubCalendar username="Raj210Kumari" />
         </Center>
       </div>

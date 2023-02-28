@@ -1,5 +1,5 @@
 import { Box, Flex, Spacer,  useMediaQuery, IconButton, Button, Text, Divider } from "@chakra-ui/react"
-import Resume from "../Rajnandani_Kumari_Resume.pdf"
+import Resume from "../fw18-1045-Rajnandani-Kumari-Resume.pdf"
 import "./Styles/Navbar.css"
 
 import {
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Button onClick={()=>toggleClick("skill")} >Skills</Button>
                 <Button onClick={()=>toggleClick("project")} >Projects</Button>
                 <Button onClick={()=>toggleClick("contact")}>Contact</Button>
-                <Button><a href={Resume} download="Rajnandani_Kumari_Resume" onClick={()=>window.open('https://drive.google.com/file/d/18ogbzR1xeFjQYVKSx3g851M0Xefp_a6N')}>Resume</a></Button>
+                <Button><a href={Resume} download="fw18-1045-Rajnandani-Kumari-Resume.pdf" onClick={()=>window.open('https://drive.google.com/file/d/18ogbzR1xeFjQYVKSx3g851M0Xefp_a6N')}>Resume</a></Button>
             </Box>
             }
             {/*   */}
@@ -65,7 +65,7 @@ const Navbar = () => {
               <MenuItem onClick={()=>toggleClick("skill")} className="menuBarSection">skills</MenuItem>
               <MenuItem onClick={()=>toggleClick("project")} className="menuBarSection">Projects</MenuItem>
               <MenuItem onClick={()=>toggleClick("contact")} className="menuBarSection"> Contact</MenuItem>
-              <MenuItem onClick={()=>window.open('https://drive.google.com/file/d/18ogbzR1xeFjQYVKSx3g851M0Xefp_a6N')} className="menuBarSection"> <a href={Resume} download="Rajnandani_Kumari_Resume">Resume</a></MenuItem>
+              <MenuItem onClick={()=>window.open('https://drive.google.com/file/d/18ogbzR1xeFjQYVKSx3g851M0Xefp_a6N')} className="menuBarSection"> <a href={Resume} download="fw18-1045-Rajnandani-Kumari-Resume.pdf">Resume</a></MenuItem>
             </MenuList>
           </Menu>
             }   

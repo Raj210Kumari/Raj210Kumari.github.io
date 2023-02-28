@@ -2,7 +2,6 @@ import React from "react";
 import "./Styles/Skills.css";
 import html from "../Images/html.png";
 import css from "../Images/CSS.png";
-import Chakra from "../Images/chakra.jpg";
 import JS from "../Images/js.png";
 import ReactLogo from "../Images/react.png";
 import ReduxLogo from "../Images/redux.png";
@@ -13,9 +12,13 @@ import NPM from "../Images/npm.png";
 import Git from "../Images/git.png";
 import skills from "../Images/skills.png";
 import Postman from "../Images/postman.png";
-import MI from "../Images/MI.png";
+import Heroku from "../Images/heroku.png";
+import Netlify from "../Images/netlify.png";
 import Bootstrap from "../Images/bootstrap.png";
 import ts from "../Images/ts.jpg";
+import Vercel from "../Images/vercel.png";
+import VSCode from "../Images/VSCode.png";
+import Slack from "../Images/Slack.png";
 
 export const Skills = () => {
   return (
@@ -104,19 +107,19 @@ export const Skills = () => {
               </div>
               <div className="skillsDivSection">
                 <div>
-                  <img src={css} alt="CSS" />
+                  <img src={Heroku} alt="Heroku" />
                 </div>
-                <h3>Heroko</h3>
+                <h3>Heroku</h3>
               </div>
               <div className="skillsDivSection">
                 <div>
-                  <img src={JS} alt="JS" />
+                  <img src={Netlify} alt="Netlify" />
                 </div>
                 <h3>Netlify</h3>
               </div>
               <div className="skillsDivSection">
                 <div>
-                  <img src={ReactLogo} alt="React" />
+                  <img src={Vercel} alt="Vercel" />
                 </div>
                 <h3>Vercel</h3>
               </div>
@@ -134,15 +137,21 @@ export const Skills = () => {
               </div>
               <div className="skillsDivSection">
                 <div>
-                  <img src={Express} alt="Express" />
+                  <img src={VSCode} alt="VSCode" />
                 </div>
                 <h3>VS Code</h3>
               </div>
               <div className="skillsDivSection">
                 <div>
-                  <img src={MongoDB} alt="MongoDB" />
+                  <img src={Slack} alt="Slack" />
                 </div>
                 <h3>Slack</h3>
+              </div>
+              <div className="skillsDivSection">
+                <div>
+                  <img src={Bootstrap} alt="Bootstrap" />
+                </div>
+                <h3>Bootstrap</h3>
               </div>
             </div>
           </div>

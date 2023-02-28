@@ -1,7 +1,6 @@
 // import React from 'react'
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 import "./Styles/Contact.css";
 import ContactMe from "../Images/Contact-Me.png";
 // import styled from 'styled-components'
@@ -47,16 +46,24 @@ export const Contact = () => {
       </Box>
       <div className="middleSection">
         <div data-aos="fade-right" style={{ color: "white" }}>
-          <PhoneIcon fontSize="large" />
-          <h1>Phone</h1><br/>
+        <a href="tel:+91-7077511496" rel="noreferrer" target="_blank"><PhoneIcon fontSize="large" /></a>
+        <a href="tel:+91-7077511496" rel="noreferrer" target="_blank"><h1>Phone</h1><br/></a>
           {/* <p>Here is My Phone Number</p> */}
           <a href="tel:+91-7077511496" rel="noreferrer" target="_blank">
             <p>+91-7077511496</p>
           </a>
         </div>
         <div data-aos="fade-down" style={{ color: "white" }}>
-          <LinkedIn fontSize="large" />
-          <h1>LinkedIn</h1><br/>
+        <a
+            href="https://www.linkedin.com/in/k-rajnandani210/"
+            rel="noreferrer"
+            target="_blank"
+          ><LinkedIn fontSize="large" /></a>
+          <a
+            href="https://www.linkedin.com/in/k-rajnandani210/"
+            rel="noreferrer"
+            target="_blank"
+          ><h1>LinkedIn</h1><br/></a>
           {/* <p>Here is My LinkedIn</p> */}
           <a
             href="https://www.linkedin.com/in/k-rajnandani210/"
@@ -67,8 +74,16 @@ export const Contact = () => {
           </a>
         </div>
         <div data-aos="fade-up" style={{ color: "white" }}>
-          <GitHub fontSize="large" />
-          <h1>Github</h1><br/>
+        <a
+            href="https://github.com/Raj210Kumari"
+            rel="noreferrer"
+            target="_blank"
+          ><GitHub fontSize="large" /></a>
+          <a
+            href="https://github.com/Raj210Kumari"
+            rel="noreferrer"
+            target="_blank"
+          ><h1>Github</h1><br/></a>
           {/* <p>Here is My Github</p> */}
           <a
             href="https://github.com/Raj210Kumari"
@@ -79,8 +94,16 @@ export const Contact = () => {
           </a>
         </div>
         <div data-aos="fade-up" style={{ color: "white" }}>
-          <EmailIcon fontSize="large" />
-          <h1>Email</h1>
+        <a
+            href="mailto:rajnandani02101997@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          ><EmailIcon fontSize="large" /></a>
+          <a
+            href="mailto:rajnandani02101997@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          ><h1>Email</h1></a>
           <br/>
           {/* <p>Send mail here</p> */}
           <a
@@ -93,7 +116,7 @@ export const Contact = () => {
         </div>
         <div data-aos="fade-left" style={{ color: "white" }}>
           <LocationOnIcon fontSize="large" />
-          <h1>Location</h1>
+          <a><h1>Location</h1></a>
           <br/>
           <p>Mihijam, Jharkhand</p>
         </div>

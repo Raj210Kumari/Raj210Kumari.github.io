@@ -11,8 +11,8 @@
 
 .homeDivImg{
     box-shadow: rgba(16, 20, 223, 0.56) 0px 22px 70px 15px;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 450px;
     border-radius: 50%;
     
 }
@@ -28,7 +28,7 @@
     border-radius: 20px;
 }
 
-@media (min-width:459px) and (max-width:830px){
+@media (min-width:460px) and (max-width:830px){
     .homeDiv{
         display: flex;
         flex-direction: column;
