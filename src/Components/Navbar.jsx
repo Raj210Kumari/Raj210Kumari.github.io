@@ -18,7 +18,7 @@ import {
 
 
 const Navbar = () => {
-    const [navMid] = useMediaQuery('(min-width: 800px)')
+    const [navMid] = useMediaQuery('(min-width: 900px)')
 
     function toggleClick(id){
         console.log("done")

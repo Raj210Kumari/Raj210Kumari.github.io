@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Styles/Project.css"
-import project from "../Images/project.png"
 import p1 from "../Images/p1.png"
 import p2 from "../Images/p2.png"
 import p3 from "../Images/p3.png"
@@ -16,6 +15,11 @@ import ReduxLogo from "../Images/redux.png"
 import Git from "../Images/git.png"
 import bootstrap from "../Images/bootstrap.png"
 
+import P1Card from "./projectCards/P1Card"
+import P2Card from "./projectCards/P2Card"
+import P3Card from "./projectCards/P3Card"
+import P4Card from "./projectCards/P4Card"
+
 const Projects = () => {
   return (
     <div id="project" className='projectMainDiv'>
@@ -23,9 +27,6 @@ const Projects = () => {
         <h1>Projects</h1>
       </div>
       <div className='projectSecondDiv'>
-        <div>
-          <img src={project} alt="Project"/>
-        </div>
         <div className='projectDiv'>
           <div className='firstProject'>
               <a target="blank" href="https://github.com/Raj210Kumari/Geekbuying-Clone"><img src={p1} alt="Geekbuying" className='projectImg'/> </a>
@@ -122,6 +123,12 @@ const Projects = () => {
           <a target="blank" href='https://github.com/Raj210Kumari/BeautyBebo-Clone'><img src={p4} alt="BeautyBebo" className='projectImg'/></a>
           </div>
         </div>
+      </div>
+      <div className='projectMinScrDiv'>
+        <P1Card/>
+        <P2Card/>
+        <P3Card/>
+        <P4Card/>
       </div>
     </div>
   )

@@ -13,15 +13,12 @@
 h1{
     font-size: 50px;
 }
-.projectSecondDiv>div>img{
-    height: 500px;
-    width: 400px;
-}
 .projectSecondDiv{
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
     align-items: center;
+    /* border: 1px solid red; */
 }
 .projectDiv{
     display: grid;
@@ -101,6 +98,9 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.projectMinScrDiv{
+    display: none;
+}
 @media (min-width:831px) and (max-width:1000px){
     .projectSecondDiv>div>img{
         display: none;
@@ -109,43 +109,23 @@ a{
 
 @media (min-width:459px) and (max-width:830px){
     .projectSecondDiv{
+        display: none;
+        /* flex-direction: column; */
+    }
+    .projectMinScrDiv{
         display: flex;
         flex-direction: column;
-    }
-    .projectDiv{
-        display: flex;
-        flex-direction: column;
-    }
-    .projectSecondDiv>div>img{
-        display: none;
-    }
-    .firstProject,.projectImg{
-        height: 240px;
-        width: 420px;
-        border-radius: 70px ;
-    }
-    .firstProject{
-        display: none;
+        gap: 30px;
     }
 }
 @media (min-width:0px) and (max-width:459px){
     .projectSecondDiv{
+        display: none;
+        /* flex-direction: column; */
+    }
+    .projectMinScrDiv{
         display: flex;
         flex-direction: column;
-    }
-    .projectDiv{
-        display: flex;
-        flex-direction: column;
-    }
-    .projectSecondDiv>div>img{
-        display: none;
-    }
-    .firstProject,.projectImg{
-        height: 180px;
-        width: 320px;
-        border-radius: 50px ;
-    }
-    .firstProject{
-        display: none;
+        gap: 30px;
     }
 }
