@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.485d6d47.css",
-    "main.js": "/static/js/main.e933bb5c.js",
+    "main.css": "/static/css/main.88ab9ef8.css",
+    "main.js": "/static/js/main.b9f4102b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/p3.png": "/static/media/p3.715ea67bd9ba2ebab279.png",
     "static/media/p2.png": "/static/media/p2.a307c1723b141b6b6bb0.png",
@@ -9,7 +9,6 @@
     "static/media/p1.png": "/static/media/p1.bad612d93e0bcd6c4c79.png",
     "static/media/redux.png": "/static/media/redux.010fcccb3cd77a85a1f7.png",
     "static/media/fw18-1045-Rajnandani-Kumari-Resume.pdf": "/static/media/fw18-1045-Rajnandani-Kumari-Resume.10046a8e246098d64731.pdf",
-    "static/media/project.png": "/static/media/project.34d82b24648b47350501.png",
     "static/media/skills.png": "/static/media/skills.89a3cbd1119aa30bc2f6.png",
     "static/media/raj..png": "/static/media/raj..049b606133deec68be78.png",
     "static/media/VSCode.png": "/static/media/VSCode.e66400756ccbdbfc0b31.png",
@@ -28,12 +27,12 @@
     "static/media/express.png": "/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/ts.jpg": "/static/media/ts.24382bf6c8166ea8e89f.jpg",
     "index.html": "/index.html",
-    "main.485d6d47.css.map": "/static/css/main.485d6d47.css.map",
-    "main.e933bb5c.js.map": "/static/js/main.e933bb5c.js.map",
+    "main.88ab9ef8.css.map": "/static/css/main.88ab9ef8.css.map",
+    "main.b9f4102b.js.map": "/static/js/main.b9f4102b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.485d6d47.css",
-    "static/js/main.e933bb5c.js"
+    "static/css/main.88ab9ef8.css",
+    "static/js/main.b9f4102b.js"
   ]
 }
